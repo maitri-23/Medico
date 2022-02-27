@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Medico</string>
+    <string name="app_name"><font color='@colors/sec_dark'>Medico</font></string>
 
     <string name="name_req">Patient\'s Name<font color='#FF0000'>*</font></string>
     <string name="contact_req">Contact No.<font color='#FF0000'>*</font></string>

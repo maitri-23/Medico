@@ -5,9 +5,9 @@
       <map>
         <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/case_list.xml" value="0.4" />
-        <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/fragment_add_case.xml" value="0.2" />
+        <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/fragment_add_case.xml" value="0.264" />
         <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/fragment_case_detail.xml" value="0.264" />
-        <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/fragment_case_list.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron/AndroidStudioProjects/Medico/app/src/main/res/layout/fragment_case_list.xml" value="0.2" />
       </map>
     </option>
   </component>
