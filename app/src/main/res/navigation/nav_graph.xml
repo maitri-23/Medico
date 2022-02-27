@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/caseListFragment">
+
+    <fragment
+        android:id="@+id/caseListFragment"
+        android:name="com.example.medico.CaseListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_case_list" >
+        <action
+            android:id="@+id/action_animalListFragment_to_addAnimalFragment"
+            app:destination="@id/addCaseFragment" />
+        <action
+            android:id="@+id/action_animalListFragment_to_animalDetailFragment"
+            app:destination="@id/caseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCaseFragment"
+        android:name="com.example.medico.AddCaseFragment"
+        android:label="@string/update_post"
+        tools:layout="@layout/fragment_add_case">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="animal_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addAnimalFragment_to_animalListFragment"
+            app:destination="@id/caseListFragment"
+            app:popUpTo="@id/caseListFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/caseDetailFragment"
+        android:name="com.example.medico.CaseDetailFragment"
+        android:label="@string/detail_post"
+        tools:layout="@layout/fragment_case_detail" >
+        <argument
+            android:name="animal_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_caseDetailFragment_to_addCaseFragment"
+            app:destination="@id/addCaseFragment" />
+    </fragment>
+</navigation>

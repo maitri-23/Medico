@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Medico</string>
+
+    <string name="name_req">Patient\'s Name<font color='#FF0000'>*</font></string>
+    <string name="contact_req">Contact No.<font color='#FF0000'>*</font></string>
+    <string name="sym_req">Symptoms<font color='#FF0000'>*</font></string>
+    <string name="spec_req">Specialist<font color='#FF0000'>*</font></string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="add_fragment_title">Add Item</string>
+    <string name="edit_fragment_title">Edit Item</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="update_post">Update</string>
+    <string name="detail_post">Details</string>
+</resources>
